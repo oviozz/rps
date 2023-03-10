@@ -68,6 +68,8 @@ body{
     display: block;
     background-color: white;
     width: 70%
+    transform: scale(0.8);
+
 
 }
 
