@@ -1,9 +1,7 @@
 
 
-
 body{
     background-color: #105A55;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,6 +110,7 @@ span{
     border-bottom-right-radius: 20px;
 }
 
+
 .child-container{
     display: flex;
     flex-direction: column;
@@ -126,5 +125,9 @@ span{
 #reset:hover{
     color: #2e95d7;
 
+}
+
+.you, .computer {
+    width: 50%;
 }
 
