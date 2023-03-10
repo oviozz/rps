@@ -1,5 +1,7 @@
 
 
+
+
 const options = ['rock', 'paper', 'scissor']
 const game_options = document.querySelectorAll('.items');
 
@@ -49,6 +51,5 @@ document.querySelector('#reset').addEventListener
     your_score.textContent = you
     computer_score.textContent = computer
     game_description.innerText = "Tap any options!"
-    game_description.style.fontStyle = 'italic'
-
+    game_description.style.cssText = "font-style: italic; color: rgba(21, 67, 96, 0.25); animation-name: floating; animation-duration: 3s; animation-iteration-count: infinite; animation-timing-function: ease-in-out;";
 })
