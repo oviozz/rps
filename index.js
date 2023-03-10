@@ -1,7 +1,4 @@
 
-
-
-
 const options = ['rock', 'paper', 'scissor']
 const game_options = document.querySelectorAll('.items');
 
