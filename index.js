@@ -13,7 +13,8 @@ let you = 0
 let computer = 0
 
 function computer_play(user_chosen){
-    game_description.style.fontStyle = 'normal'
+    game_description.style.cssText = 'font-style: normal; color:#154360; animation: none'
+
     const computer_chosen = options[Math.floor(Math.random()* options.length)]
 
     const result = (options.indexOf(user_chosen) - options.indexOf(computer_chosen) + 3) % 3;
